@@ -1,0 +1,24 @@
+<div>
+    <div class='panel-body'>	
+        <div>Fetched {{data.length}} in {{time}} seconds</div>		
+        <table class='display' cellspacing='0' width='100%'>
+
+            {{! == CREATE HEADER }}
+            <tr class='tr-header'>
+            {{#header}}
+                <td>{{this}}</td>	
+            {{/header}}
+            </tr>			
+
+            {{! == CREATE ROWS }}
+            {{#data}}
+                <tr>
+                    {{#each this}}
+                        <td>{{this}}</td>
+                    {{/each}}
+                </tr>	
+            {{/data}}
+
+        </table>		
+    </div>
+</div>

@@ -1,0 +1,33 @@
+#history-list,ul {
+	list-style-type: none;
+	margin: 4px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.history {
+	padding: 4px;
+	background-color: #FFFFFF;
+}
+
+.history,code {
+	overflow-wrap: break-word;
+	font-size: 12px;
+}
+
+.history-delete {
+	
+}
+
+.history-query {
+	font-size: 12px;
+	background-color: #272822;
+	padding: 4px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+#historyList .list-group-item{
+	background-color: #f3f9ff;
+    border: 1px solid #acacac;
+} 
